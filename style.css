@@ -5,11 +5,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    /* overflow-y: hidden; */
-
 }
 
-.content {
+.main {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -18,22 +16,41 @@ html, body {
 .bg-screen {
     background-image: url("img/ryan-kim-Js0NzCr_HRU-unsplash.jpg");
     background-size: cover;
-    width: 40vh;
+    min-width: 40%;
+    flex-shrink: 1;
 }
 
 .sidebar {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
     position: relative;
-    /* width: 40%; */
-    text-align: center;
     text-align: center;
     top: 8rem;
-    background-color: red;
+    padding: 18px;
+    
 }
 
-.formie {
+.content {
     display: flex;
+    flex-direction: column;
     border: 1px solid green;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    background-color: #38393b;
+}
+
+.description {
+    text-align: left;
+    padding: 18px;
+}
+
+.form-section {
+    background-color: white;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.209);
+
+}
+
+.form-elements {
+    display: grid;
+    grid-template-columns: auto auto;
 }

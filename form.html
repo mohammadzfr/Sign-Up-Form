@@ -8,25 +8,61 @@
     <title>Sign Up Form</title>
 </head>
 <body>
-    <div class="content">
+    <div class="main">
         <div class="bg-screen">
             <div class="sidebar">ODIN</div>
         </div>
-        <div class="formie">
+        <div class="content">
             <!-- testing -->
-            <div class="description">Test</div>
-            <div class="form-section">
-                <form action="" method="post">
-                    <label for="text"></label>
-                    <input type="password" name="" id="">
-                </form>
+            <div class="description">
+                <p>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <i>now</i> to get started.
+                </p>
+                <p>
+                You <i>know</i> you want to.
+                </p>
             </div>
-            <div class="other-links">
-    
+            <div class="form-section">
+                <form action="" method="post" >
+                    <h2>Let's do this!</h1>
+                    <div class="form-elements">
+                        <div>
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name">
+                          </div>
+                        
+                          <div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name">
+                          </div>
+                          <div>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                          </div>
+                        
+                          <div>
+                            <!-- <legend>Phone Number</legend> -->
+                            <label for="phone_num">Phone Number</label>
+                            <input type="number" name="phone_num" id="phone_num">
+                          </div>
+                          <div>
+                            <!-- <legend>Password</legend> -->
+                            <label for="pwd">Password</label>
+                            <input type="password" name="pwd" id="pwd" class="error">
+                          </div>
+                          <div>
+                            <!-- <legend>Confirm Password</legend> -->
+                            <label for="cpwd">Confirm Password</label>
+                            <input type="password" name="cpwd" id="pwd" class="error">
+                          </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log In</a></p>
+                    
+                </form>
             </div>
         </div>
     </div>
-    
-
 </body>
 </html>
