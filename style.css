@@ -35,13 +35,14 @@ html, body {
     flex-direction: column;
     border: 1px solid green;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: #38393b;
+    padding: 24px;
 }
 
 .description {
     text-align: left;
-    padding: 18px;
+    
 }
 .form-elements {
     background-color: white;
@@ -56,4 +57,8 @@ html, body {
 
     display: grid;
     grid-template-columns: auto auto;
+}
+
+button {
+    margin: 16px 0px;
 }
