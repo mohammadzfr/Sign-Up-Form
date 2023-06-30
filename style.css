@@ -43,14 +43,17 @@ html, body {
     text-align: left;
     padding: 18px;
 }
-
-.form-section {
+.form-elements {
     background-color: white;
     box-shadow: 2px 4px rgba(0, 0, 0, 0.209);
+}
+.form-section {
+
 
 }
 
-.form-elements {
+.grid {
+
     display: grid;
     grid-template-columns: auto auto;
 }
